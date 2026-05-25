@@ -1,62 +1,42 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="id">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
   
-  <!-- ============================================= -->
-  <!-- TITLE & FAVICON (Saran 1: Favicon)           -->
-  <!-- ============================================= -->
   <title>Christian Panjaitan | Cyber Security Portfolio</title>
   
-  <!-- Favicon - Ganti link ini dengan file favicon.ico Anda setelah upload -->
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
   
-  <!-- ============================================= -->
-  <!-- META TAG SEO & OPEN GRAPH (Saran 2 & 3)      -->
-  <!-- ============================================= -->
-  <meta name="description" content="Portfolio Christian Panjaitan — siswa SMK jurusan TKJ, Juara 2 LKS Cyber Security Kota Medan 2026, ahli di bidang cyber security, networking, dan Python. Aktif dalam kompetisi jaringan dan pengembangan skill keamanan siber.">
-  <meta name="keywords" content="Christian Panjaitan, Cyber Security, Portfolio, LKS Cyber Security, TKJ, SMK Negeri 9 Medan, Networking, Python, Ethical Hacking, Linux Debian, Mikrotik">
+  <meta name="description" content="Portfolio Christian Panjaitan — siswa SMK jurusan TKJ, Juara 2 LKS Cyber Security Kota Medan 2026, ahli di bidang cyber security, networking, dan Python.">
+  <meta name="keywords" content="Christian Panjaitan, Cyber Security, Portfolio, LKS Cyber Security, TKJ, SMK Negeri 9 Medan, Networking, Python, Ethical Hacking">
   <meta name="author" content="Christian Panjaitan">
   <meta name="robots" content="index, follow">
   
-  <!-- Open Graph / Facebook / WhatsApp / Telegram -->
   <meta property="og:title" content="Christian Panjaitan | Cyber Security Portfolio">
-  <meta property="og:description" content="Portfolio Christian Panjaitan — Juara 2 LKS Cyber Security Kota Medan 2026. Pelajari perjalanan, skill, dan prestasi saya di dunia cyber security.">
+  <meta property="og:description" content="Portfolio Christian Panjaitan — Juara 2 LKS Cyber Security Kota Medan 2026.">
   <meta property="og:image" content="christian.jpeg">
-  <meta property="og:image:alt" content="Christian Panjaitan - Cyber Security Student & Future Expert">
   <meta property="og:url" content="https://christian-panjaitan.vercel.app">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="id_ID">
   
-  <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Christian Panjaitan | Cyber Security Portfolio">
   <meta name="twitter:description" content="Portfolio Christian Panjaitan — Juara 2 LKS Cyber Security Kota Medan 2026.">
   <meta name="twitter:image" content="christian.jpeg">
   
-  <!-- ============================================= -->
-  <!-- CSS FILES & OPTIMIZATION                     -->
-  <!-- ============================================= -->
-  <!-- Preload Font Awesome (Saran 4: Performa Loading) -->
   <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"></noscript>
   
   <link rel="stylesheet" href="style.css" />
   
-  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
   
-  <!-- Chart.js untuk Dashboard -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 </head>
 <body>
 
-<!-- ============================================================
-     NAVIGATION
-============================================================ -->
 <nav id="navbar">
   <div class="container nav-inner">
     <a href="#hero" class="nav-logo">Christian<span>.</span></a>
@@ -73,7 +53,6 @@
   </div>
 </nav>
 
-<!-- Mobile Menu -->
 <div class="mobile-menu" id="mobileMenu">
   <a href="#hero">Home</a>
   <a href="#about">About</a>
@@ -82,9 +61,6 @@
   <a href="#contact">Hire Me</a>
 </div>
 
-<!-- ============================================================
-     HERO SECTION
-============================================================ -->
 <section id="hero">
   <div class="hero-bg">
     <div class="hero-orb hero-orb-1"></div>
@@ -121,13 +97,9 @@
   </div>
 </section>
 
-<!-- ============================================================
-     ABOUT SECTION (Dengan Bingkai Foto)
-============================================================ -->
 <section id="about" class="section">
   <div class="container">
     <div class="about-grid">
-      <!-- Photo Frame Premium -->
       <div class="photo-frame reveal">
         <div class="frame-outer">
           <div class="frame-corner frame-corner-tl"></div>
@@ -135,7 +107,7 @@
           <div class="frame-corner frame-corner-bl"></div>
           <div class="frame-corner frame-corner-br"></div>
           <div class="frame-inner">
-            <img src="christian.jpeg" alt="Christian Panjaitan - Cyber Security student, Juara 2 LKS Cyber Security Kota Medan 2026, portrait with professional suit" class="profile-photo" 
+            <img src="christian.jpeg" alt="Christian Panjaitan" class="profile-photo" 
                  onerror="this.src='https://via.placeholder.com/400x400?text=Christian+Photo'">
           </div>
           <div class="photo-badge">
@@ -145,7 +117,6 @@
         </div>
       </div>
 
-      <!-- About Text -->
       <div class="about-text reveal">
         <p class="section-label">About Me</p>
         <h2 class="section-title">Turning Ideas Into <br><span class="shimmer">Digital Security</span></h2>
@@ -157,23 +128,16 @@
         <p>
           Ketertarikan saya pada keamanan digital berawal saat mengikuti 
           <strong>LKS Cyber Security Kota Medan 2026</strong>, di mana saya berhasil meraih 
-          <strong style="color:var(--accent)">Juara 2</strong>. Pengalaman ini membuka mata saya 
-          tentang pentingnya keamanan siber di era digital dan memacu saya untuk terus 
-          belajar dan berkembang.
+          <strong style="color:var(--accent)">Juara 2</strong>.
         </p>
         <p>
           Saat ini saya aktif mempelajari administrasi server menggunakan Debian Linux, 
           pemrograman Python untuk otomasi keamanan, serta mendalami jaringan melalui 
-          persiapan Olimpiade Mikrotik. Saya juga pernah berpartisipasi dalam 
-          <strong>Pameran Gebyar & Expo Pendidikan 2026</strong> menampilkan instalasi jaringan 
-          fiber optik FTTH.
+          persiapan Olimpiade Mikrotik.
         </p>
         <p>
           Target saya ke depan adalah melanjutkan studi ke jenjang S1 di bidang 
-          <strong>Teknik Informatika atau Cyber Security</strong> pada tahun 2027, serta 
-          mendapatkan sertifikasi profesional seperti 
-          <span style="color:var(--accent)">Mikrotik MTCNA</span> dan 
-          <span style="color:var(--accent)">CompTIA Security+</span>.
+          <strong>Teknik Informatika atau Cyber Security</strong> pada tahun 2027.
         </p>
         <div class="about-tags">
           <span class="skill-chip">Cyber Security</span>
@@ -184,7 +148,6 @@
           <span class="skill-chip">Ethical Hacking</span>
         </div>
 
-        <!-- Skill Progress Bars -->
         <div class="skill-bars" style="margin-top: 36px;">
           <div class="skill-bar-item">
             <div class="skill-bar-header"><span>Cyber Security</span><span>85%</span></div>
@@ -208,9 +171,6 @@
   </div>
 </section>
 
-<!-- ============================================================
-     JOURNEY / TIMELINE SECTION
-============================================================ -->
 <section id="journey" class="section">
   <div class="container">
     <div class="reveal">
@@ -220,7 +180,6 @@
     </div>
 
     <div class="timeline">
-      <!-- Item 1 -->
       <div class="timeline-item">
         <div class="timeline-dot"><i class="fa-solid fa-trophy"></i></div>
         <div class="timeline-card">
@@ -228,9 +187,7 @@
           <div class="timeline-title">
             <i class="fa-solid fa-medal"></i> Juara 2 LKS Cyber Security Kota Medan
           </div>
-          <p class="timeline-desc">
-            Saya bersyukur dapat mengikuti LKS Cyber Security 2026 di Kota Medan dan meraih Juara 2. Kompetisi ini menguji kemampuan saya dalam berbagai aspek keamanan siber, mulai dari penetration testing, forensik digital, hingga network security. Pengalaman ini tidak hanya memperkuat pengetahuan teknis saya, tetapi juga meningkatkan kemampuan problem solving dan kerja tim dalam situasi kompetitif. Menjadi motivasi besar untuk terus berkembang dan meraih prestasi lebih tinggi di masa depan.
-          </p>
+          <p class="timeline-desc">Saya bersyukur dapat mengikuti LKS Cyber Security 2026 di Kota Medan dan meraih Juara 2. Kompetisi ini menguji kemampuan saya dalam berbagai aspek keamanan siber, mulai dari penetration testing, forensik digital, hingga network security.</p>
           <div class="timeline-skills">
             <span class="skill-chip">Cyber Security</span>
             <span class="skill-chip">Penetration Testing</span>
@@ -240,7 +197,6 @@
         </div>
       </div>
 
-      <!-- Item 2 -->
       <div class="timeline-item">
         <div class="timeline-dot"><i class="fa-solid fa-network-wired"></i></div>
         <div class="timeline-card">
@@ -248,9 +204,7 @@
           <div class="timeline-title">
             <i class="fa-solid fa-router"></i> Olimpiade Jaringan Mikrotik
           </div>
-          <p class="timeline-desc">
-            Selesai mengikuti olimpiade mikrotik yang diselenggarakan oleh CITRA WEB dengan materi routing, firewall, dan troubleshooting jaringan menggunakan Mikrotik RouterOS. Pengalaman berharga dalam memahami konsep jaringan secara mendalam serta meningkatkan kemampuan praktis dalam konfigurasi dan manajemen perangkat jaringan.
-          </p>
+          <p class="timeline-desc">Mengikuti olimpiade mikrotik yang diselenggarakan oleh CITRA WEB dengan materi routing, firewall, dan troubleshooting jaringan menggunakan Mikrotik RouterOS.</p>
           <div class="timeline-skills">
             <span class="skill-chip">Mikrotik RouterOS</span>
             <span class="skill-chip">Routing Protocol</span>
@@ -260,7 +214,6 @@
         </div>
       </div>
 
-      <!-- Item 3 -->
       <div class="timeline-item">
         <div class="timeline-dot"><i class="fa-solid fa-star"></i></div>
         <div class="timeline-card">
@@ -268,9 +221,7 @@
           <div class="timeline-title">
             <i class="fa-solid fa-building"></i> Gebyar & Expo Pendidikan — FTTH Installation
           </div>
-          <p class="timeline-desc">
-            Berpartisipasi dalam pameran pendidikan sebagai perwakilan SMKN 9 Medan dengan menampilkan instalasi jaringan fiber optik FTTH. Bertanggung jawab dalam proses splicing kabel fiber optik, konfigurasi perangkat jaringan, serta memberikan penjelasan kepada pengunjung tentang teknologi FTTH.
-          </p>
+          <p class="timeline-desc">Berpartisipasi dalam pameran pendidikan sebagai perwakilan SMKN 9 Medan dengan menampilkan instalasi jaringan fiber optik FTTH.</p>
           <div class="timeline-skills">
             <span class="skill-chip">Fiber Optik FTTH</span>
             <span class="skill-chip">Splicing</span>
@@ -280,7 +231,6 @@
         </div>
       </div>
 
-      <!-- Item 4 -->
       <div class="timeline-item">
         <div class="timeline-dot"><i class="fa-solid fa-laptop-code"></i></div>
         <div class="timeline-card">
@@ -288,9 +238,7 @@
           <div class="timeline-title">
             <i class="fa-brands fa-python"></i> Self-Learning: Python & Linux Server
           </div>
-          <p class="timeline-desc">
-            Mempelajari secara mandiri pemrograman Python untuk otomasi tugas-tugas keamanan siber, serta administrasi server menggunakan Debian Linux termasuk konfigurasi layanan, hardening sistem, dan manajemen pengguna.
-          </p>
+          <p class="timeline-desc">Mempelajari secara mandiri pemrograman Python untuk otomasi tugas-tugas keamanan siber, serta administrasi server menggunakan Debian Linux.</p>
           <div class="timeline-skills">
             <span class="skill-chip">Python</span>
             <span class="skill-chip">Linux Debian</span>
@@ -300,7 +248,6 @@
         </div>
       </div>
 
-      <!-- Item 5 -->
       <div class="timeline-item">
         <div class="timeline-dot"><i class="fa-solid fa-graduation-cap"></i></div>
         <div class="timeline-card">
@@ -308,9 +255,7 @@
           <div class="timeline-title">
             <i class="fa-solid fa-flag-checkered"></i> Target & Future Plans
           </div>
-          <p class="timeline-desc">
-            Setelah lulus SMK pada tahun 2026, berencana melanjutkan studi S1 di bidang Teknik Informatika atau Cyber Security. Target mendapatkan sertifikasi Mikrotik MTCNA dan CompTIA Security+, serta berpartisipasi dalam kompetisi CTF.
-          </p>
+          <p class="timeline-desc">Setelah lulus SMK pada tahun 2026, berencana melanjutkan studi S1 di bidang Teknik Informatika atau Cyber Security.</p>
           <div class="timeline-skills">
             <span class="skill-chip">CTF Competition</span>
             <span class="skill-chip">MTCNA</span>
@@ -323,9 +268,6 @@
   </div>
 </section>
 
-<!-- ============================================================
-     DASHBOARD SECTION
-============================================================ -->
 <section id="dashboard">
   <div class="container">
     <div class="reveal" style="margin-bottom: 48px;">
@@ -334,7 +276,6 @@
       <p class="section-desc">Ringkasan prestasi, perkembangan skill, dan perjalanan belajar cyber security saya.</p>
     </div>
 
-    <!-- Stats Cards -->
     <div class="dashboard-stats">
       <div class="stat-card reveal">
         <div class="stat-icon"><i class="fa-solid fa-trophy"></i></div>
@@ -362,7 +303,6 @@
       </div>
     </div>
 
-    <!-- Grid 2 Kolom -->
     <div class="dashboard-grid">
       <div class="dashboard-card reveal">
         <div class="card-header">
@@ -398,7 +338,6 @@
       </div>
     </div>
 
-    <!-- Baris kedua -->
     <div class="dashboard-grid">
       <div class="dashboard-card reveal">
         <div class="card-header">
@@ -429,9 +368,6 @@
   </div>
 </section>
 
-<!-- ============================================================
-     CONTACT SECTION
-============================================================ -->
 <section id="contact" class="section">
   <div class="container">
     <div class="reveal" style="margin-bottom: 56px;">
@@ -443,7 +379,7 @@
     <div class="contact-wrap reveal">
       <div class="contact-info">
         <h3>Hubungi Saya Langsung</h3>
-        <p>Saya terbuka untuk diskusi seputar cyber security, networking, maupun peluang kolaborasi. Respons biasanya dalam 24 jam.</p>
+        <p>Saya terbuka untuk diskusi seputar cyber security, networking, maupun peluang kolaborasi.</p>
         <div class="contact-links">
           <a href="mailto:ezhichan12@gmail.com" class="contact-link"><i class="fa-solid fa-envelope"></i> ezhichan12@gmail.com</a>
           <a href="https://instagram.com/bbyszz.yann" target="_blank" class="contact-link"><i class="fa-brands fa-instagram"></i> @bbyszz.yann</a>
@@ -454,17 +390,9 @@
 
       <div class="contact-form-box">
         <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
-          
-          <!-- Access Key Web3Forms -->
           <input type="hidden" name="access_key" value="5abd7fdc-6656-41a0-ad06-44d44844a1e2">
-          
-          <!-- Redirect setelah sukses - ganti dengan domain Anda nanti -->
           <input type="hidden" name="redirect" value="https://christian-panjaitan.vercel.app">
-          
-          <!-- Subject email -->
           <input type="hidden" name="subject" value="📬 Pesan Baru dari Website Portfolio Christian!">
-          
-          <!-- Anti-spam -->
           <input type="checkbox" name="botcheck" style="display: none;">
           
           <div class="form-group">
@@ -494,9 +422,6 @@
   </div>
 </section>
 
-<!-- ============================================================
-     FOOTER
-============================================================ -->
 <footer>
   <div class="container">
     <div class="footer-inner">
@@ -520,13 +445,10 @@
   </div>
 </footer>
 
-<!-- Scroll Top Button -->
 <div class="scroll-top" id="scrollTop"><i class="fa-solid fa-arrow-up"></i></div>
 
-<!-- JavaScript -->
 <script src="script.js"></script>
 
-<!-- Chart initialization -->
 <script>
   document.addEventListener('DOMContentLoaded', function() {
     const ctx = document.getElementById('skillsChart');
@@ -558,545 +480,4 @@
 </script>
 
 </body>
-=======
-<!DOCTYPE html>
-<html lang="id">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-  
-  <!-- ============================================= -->
-  <!-- TITLE & FAVICON (Saran 1: Favicon)           -->
-  <!-- ============================================= -->
-  <title>Christian Panjaitan | Cyber Security Portfolio</title>
-  
-  <!-- Favicon - Ganti link ini dengan file favicon.ico Anda setelah upload -->
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <link rel="apple-touch-icon" href="apple-touch-icon.png">
-  
-  <!-- ============================================= -->
-  <!-- META TAG SEO & OPEN GRAPH (Saran 2 & 3)      -->
-  <!-- ============================================= -->
-  <meta name="description" content="Portfolio Christian Panjaitan — siswa SMK jurusan TKJ, Juara 2 LKS Cyber Security Kota Medan 2026, ahli di bidang cyber security, networking, dan Python. Aktif dalam kompetisi jaringan dan pengembangan skill keamanan siber.">
-  <meta name="keywords" content="Christian Panjaitan, Cyber Security, Portfolio, LKS Cyber Security, TKJ, SMK Negeri 9 Medan, Networking, Python, Ethical Hacking, Linux Debian, Mikrotik">
-  <meta name="author" content="Christian Panjaitan">
-  <meta name="robots" content="index, follow">
-  
-  <!-- Open Graph / Facebook / WhatsApp / Telegram -->
-  <meta property="og:title" content="Christian Panjaitan | Cyber Security Portfolio">
-  <meta property="og:description" content="Portfolio Christian Panjaitan — Juara 2 LKS Cyber Security Kota Medan 2026. Pelajari perjalanan, skill, dan prestasi saya di dunia cyber security.">
-  <meta property="og:image" content="christian.jpeg">
-  <meta property="og:image:alt" content="Christian Panjaitan - Cyber Security Student & Future Expert">
-  <meta property="og:url" content="https://christian-panjaitan.vercel.app">
-  <meta property="og:type" content="website">
-  <meta property="og:locale" content="id_ID">
-  
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Christian Panjaitan | Cyber Security Portfolio">
-  <meta name="twitter:description" content="Portfolio Christian Panjaitan — Juara 2 LKS Cyber Security Kota Medan 2026.">
-  <meta name="twitter:image" content="christian.jpeg">
-  
-  <!-- ============================================= -->
-  <!-- CSS FILES & OPTIMIZATION                     -->
-  <!-- ============================================= -->
-  <!-- Preload Font Awesome (Saran 4: Performa Loading) -->
-  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"></noscript>
-  
-  <link rel="stylesheet" href="style.css" />
-  
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
-  
-  <!-- Chart.js untuk Dashboard -->
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
-</head>
-<body>
-
-<!-- ============================================================
-     NAVIGATION
-============================================================ -->
-<nav id="navbar">
-  <div class="container nav-inner">
-    <a href="#hero" class="nav-logo">Christian<span>.</span></a>
-    <ul class="nav-links">
-      <li><a href="#hero" class="active">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#journey">Journey</a></li>
-      <li><a href="#dashboard">Dashboard</a></li>
-      <li><a href="#contact" class="nav-cta">Hire Me</a></li>
-    </ul>
-    <div class="nav-hamburger" id="hamburger">
-      <span></span><span></span><span></span>
-    </div>
-  </div>
-</nav>
-
-<!-- Mobile Menu -->
-<div class="mobile-menu" id="mobileMenu">
-  <a href="#hero">Home</a>
-  <a href="#about">About</a>
-  <a href="#journey">Journey</a>
-  <a href="#dashboard">Dashboard</a>
-  <a href="#contact">Hire Me</a>
-</div>
-
-<!-- ============================================================
-     HERO SECTION
-============================================================ -->
-<section id="hero">
-  <div class="hero-bg">
-    <div class="hero-orb hero-orb-1"></div>
-    <div class="hero-orb hero-orb-2"></div>
-    <div class="hero-grid"></div>
-  </div>
-  <div class="container hero-content">
-    <div class="hero-badge reveal">
-      <span class="hero-badge-dot"></span>
-      IF I PLAY, I PLAY TO WIN
-    </div>
-    <h1 class="hero-name reveal">Hi, I'm<br><span class="accent">Christian</span><br>Panjaitan</h1>
-    <div class="hero-title reveal">
-      <span>Student & Future Cyber Security Expert</span>
-    </div>
-    <p class="hero-desc reveal">
-      Siswa SMK jurusan TKJ yang berdedikasi di bidang cyber security. 
-      Peraih Juara 2 LKS Cyber Security Kota Medan 2026, aktif dalam kompetisi 
-      jaringan, dan terus mengasah kemampuan di ethical hacking, Linux server, 
-      serta Python automation.
-    </p>
-    <div class="hero-actions reveal">
-      <a href="#journey" class="btn btn-primary">
-        <i class="fa-solid fa-folder-open"></i> View Journey
-      </a>
-      <a href="#contact" class="btn btn-outline">
-        <i class="fa-solid fa-paper-plane"></i> Contact Me
-      </a>
-    </div>
-  </div>
-  <div class="hero-scroll">
-    <span>Scroll</span>
-    <div class="hero-scroll-line"></div>
-  </div>
-</section>
-
-<!-- ============================================================
-     ABOUT SECTION (Dengan Bingkai Foto)
-============================================================ -->
-<section id="about" class="section">
-  <div class="container">
-    <div class="about-grid">
-      <!-- Photo Frame Premium -->
-      <div class="photo-frame reveal">
-        <div class="frame-outer">
-          <div class="frame-corner frame-corner-tl"></div>
-          <div class="frame-corner frame-corner-tr"></div>
-          <div class="frame-corner frame-corner-bl"></div>
-          <div class="frame-corner frame-corner-br"></div>
-          <div class="frame-inner">
-            <img src="christian.jpeg" alt="Christian Panjaitan - Cyber Security student, Juara 2 LKS Cyber Security Kota Medan 2026, portrait with professional suit" class="profile-photo" 
-                 onerror="this.src='https://via.placeholder.com/400x400?text=Christian+Photo'">
-          </div>
-          <div class="photo-badge">
-            <i class="fa-solid fa-shield-halved"></i>
-            <span>Cyber Security • </span> Christian P.
-          </div>
-        </div>
-      </div>
-
-      <!-- About Text -->
-      <div class="about-text reveal">
-        <p class="section-label">About Me</p>
-        <h2 class="section-title">Turning Ideas Into <br>Digital Security</h2>
-        <p>
-          Perkenalkan, saya <strong style="color:var(--text)">Christian Panjaitan</strong> — siswa SMK Negeri 9 Medan 
-          jurusan Teknik Komputer & Jaringan (TKJ) dengan fokus mendalam di bidang 
-          <span style="color:var(--accent)">cyber security</span>.
-        </p>
-        <p>
-          Ketertarikan saya pada keamanan digital berawal saat mengikuti 
-          <strong>LKS Cyber Security Kota Medan 2026</strong>, di mana saya berhasil meraih 
-          <strong style="color:var(--accent)">Juara 2</strong>. Pengalaman ini membuka mata saya 
-          tentang pentingnya keamanan siber di era digital dan memacu saya untuk terus 
-          belajar dan berkembang.
-        </p>
-        <p>
-          Saat ini saya aktif mempelajari administrasi server menggunakan Debian Linux, 
-          pemrograman Python untuk otomasi keamanan, serta mendalami jaringan melalui 
-          persiapan Olimpiade Mikrotik. Saya juga pernah berpartisipasi dalam 
-          <strong>Pameran Gebyar & Expo Pendidikan 2026</strong> menampilkan instalasi jaringan 
-          fiber optik FTTH.
-        </p>
-        <p>
-          Target saya ke depan adalah melanjutkan studi ke jenjang S1 di bidang 
-          <strong>Teknik Informatika atau Cyber Security</strong> pada tahun 2027, serta 
-          mendapatkan sertifikasi profesional seperti 
-          <span style="color:var(--accent)">Mikrotik MTCNA</span> dan 
-          <span style="color:var(--accent)">CompTIA Security+</span>.
-        </p>
-        <div class="about-tags">
-          <span class="skill-chip">Cyber Security</span>
-          <span class="skill-chip">Python</span>
-          <span class="skill-chip">Linux / Debian</span>
-          <span class="skill-chip">Networking</span>
-          <span class="skill-chip">Mikrotik</span>
-          <span class="skill-chip">Ethical Hacking</span>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ============================================================
-     JOURNEY / TIMELINE SECTION
-============================================================ -->
-<section id="journey" class="section">
-  <div class="container">
-    <div class="reveal">
-      <p class="section-label">My Journey</p>
-      <h2 class="section-title">Experience & Achievements</h2>
-      <p class="section-desc">Perjalanan, kompetisi, dan pencapaian yang membentuk karir saya di dunia cyber security.</p>
-    </div>
-
-    <div class="timeline">
-      <!-- Item 1 -->
-      <div class="timeline-item">
-        <div class="timeline-dot"><i class="fa-solid fa-trophy"></i></div>
-        <div class="timeline-card">
-          <div class="timeline-period">2026 — Kota Medan</div>
-          <div class="timeline-title">
-            <i class="fa-solid fa-medal"></i> Juara 2 LKS Cyber Security Kota Medan
-          </div>
-          <p class="timeline-desc">
-            Saya bersyukur dapat mengikuti LKS Cyber Security 2026 di Kota Medan dan meraih Juara 2. Kompetisi ini menguji kemampuan saya dalam berbagai aspek keamanan siber, mulai dari penetration testing, forensik digital, hingga network security. Pengalaman ini tidak hanya memperkuat pengetahuan teknis saya, tetapi juga meningkatkan kemampuan problem solving dan kerja tim dalam situasi kompetitif. Menjadi motivasi besar untuk terus berkembang dan meraih prestasi lebih tinggi di masa depan.
-          </p>
-          <div class="timeline-skills">
-            <span class="skill-chip">Cyber Security</span>
-            <span class="skill-chip">Penetration Testing</span>
-            <span class="skill-chip">Forensik Digital</span>
-            <span class="skill-chip">Network Security</span>
-          </div>
-        </div>
-      </div>
-
-      <!-- Item 2 -->
-      <div class="timeline-item">
-        <div class="timeline-dot"><i class="fa-solid fa-network-wired"></i></div>
-        <div class="timeline-card">
-          <div class="timeline-period">2025 — Present</div>
-          <div class="timeline-title">
-            <i class="fa-solid fa-router"></i> Olimpiade Jaringan Mikrotik
-          </div>
-          <p class="timeline-desc">
-            Selesai mengikuti olimpiade mikrotik yang diselenggarakan oleh CITRA WEB dengan materi routing, firewall, dan troubleshooting jaringan menggunakan Mikrotik RouterOS. Pengalaman berharga dalam memahami konsep jaringan secara mendalam serta meningkatkan kemampuan praktis dalam konfigurasi dan manajemen perangkat jaringan.
-          </p>
-          <div class="timeline-skills">
-            <span class="skill-chip">Mikrotik RouterOS</span>
-            <span class="skill-chip">Routing Protocol</span>
-            <span class="skill-chip">Firewall</span>
-            <span class="skill-chip">Troubleshooting</span>
-          </div>
-        </div>
-      </div>
-
-      <!-- Item 3 -->
-      <div class="timeline-item">
-        <div class="timeline-dot"><i class="fa-solid fa-star"></i></div>
-        <div class="timeline-card">
-          <div class="timeline-period">2026</div>
-          <div class="timeline-title">
-            <i class="fa-solid fa-building"></i> Gebyar & Expo Pendidikan — FTTH Installation
-          </div>
-          <p class="timeline-desc">
-            Berpartisipasi dalam pameran pendidikan sebagai perwakilan SMKN 9 Medan dengan menampilkan instalasi jaringan fiber optik FTTH. Bertanggung jawab dalam proses splicing kabel fiber optik, konfigurasi perangkat jaringan, serta memberikan penjelasan kepada pengunjung tentang teknologi FTTH.
-          </p>
-          <div class="timeline-skills">
-            <span class="skill-chip">Fiber Optik FTTH</span>
-            <span class="skill-chip">Splicing</span>
-            <span class="skill-chip">Public Speaking</span>
-            <span class="skill-chip">Teamwork</span>
-          </div>
-        </div>
-      </div>
-
-      <!-- Item 4 -->
-      <div class="timeline-item">
-        <div class="timeline-dot"><i class="fa-solid fa-laptop-code"></i></div>
-        <div class="timeline-card">
-          <div class="timeline-period">2025 — Present</div>
-          <div class="timeline-title">
-            <i class="fa-brands fa-python"></i> Self-Learning: Python & Linux Server
-          </div>
-          <p class="timeline-desc">
-            Mempelajari secara mandiri pemrograman Python untuk otomasi tugas-tugas keamanan siber, serta administrasi server menggunakan Debian Linux termasuk konfigurasi layanan, hardening sistem, dan manajemen pengguna.
-          </p>
-          <div class="timeline-skills">
-            <span class="skill-chip">Python</span>
-            <span class="skill-chip">Linux Debian</span>
-            <span class="skill-chip">Server Admin</span>
-            <span class="skill-chip">Automation</span>
-          </div>
-        </div>
-      </div>
-
-      <!-- Item 5 -->
-      <div class="timeline-item">
-        <div class="timeline-dot"><i class="fa-solid fa-graduation-cap"></i></div>
-        <div class="timeline-card">
-          <div class="timeline-period">2026 — 2027</div>
-          <div class="timeline-title">
-            <i class="fa-solid fa-flag-checkered"></i> Target & Future Plans
-          </div>
-          <p class="timeline-desc">
-            Setelah lulus SMK pada tahun 2026, berencana melanjutkan studi S1 di bidang Teknik Informatika atau Cyber Security. Target mendapatkan sertifikasi Mikrotik MTCNA dan CompTIA Security+, serta berpartisipasi dalam kompetisi CTF.
-          </p>
-          <div class="timeline-skills">
-            <span class="skill-chip">CTF Competition</span>
-            <span class="skill-chip">MTCNA</span>
-            <span class="skill-chip">CompTIA Security+</span>
-            <span class="skill-chip">University S1</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ============================================================
-     DASHBOARD SECTION
-============================================================ -->
-<section id="dashboard">
-  <div class="container">
-    <div class="reveal" style="margin-bottom: 48px;">
-      <p class="section-label">📊 CYBER SECURITY HUB</p>
-      <h2 class="section-title">Performance Dashboard</h2>
-      <p class="section-desc">Ringkasan prestasi, perkembangan skill, dan perjalanan belajar cyber security saya.</p>
-    </div>
-
-    <!-- Stats Cards -->
-    <div class="dashboard-stats">
-      <div class="stat-card reveal">
-        <div class="stat-icon"><i class="fa-solid fa-trophy"></i></div>
-        <div class="stat-number">🏆 2</div>
-        <div class="stat-label">Juara Lomba Cyber Security</div>
-        <div class="stat-trend positive"><i class="fa-solid fa-medal"></i> Juara 2 Kota Medan</div>
-      </div>
-      <div class="stat-card reveal">
-        <div class="stat-icon"><i class="fa-solid fa-clock"></i></div>
-        <div class="stat-number">3+</div>
-        <div class="stat-label">Tahun Pengalaman Kompetisi</div>
-        <div class="stat-trend positive"><i class="fa-solid fa-chart-line"></i> Aktif 2024-2026</div>
-      </div>
-      <div class="stat-card reveal">
-        <div class="stat-icon"><i class="fa-solid fa-code"></i></div>
-        <div class="stat-number">6+</div>
-        <div class="stat-label">Skill Dikuasai</div>
-        <div class="stat-trend positive"><i class="fa-solid fa-rocket"></i> Cyber, Python, Linux, Networking</div>
-      </div>
-      <div class="stat-card reveal">
-        <div class="stat-icon"><i class="fa-solid fa-calendar"></i></div>
-        <div class="stat-number">2027</div>
-        <div class="stat-label">Target Studi Lanjutan</div>
-        <div class="stat-trend positive"><i class="fa-solid fa-graduation-cap"></i> Universitas</div>
-      </div>
-    </div>
-
-    <!-- Grid 2 Kolom -->
-    <div class="dashboard-grid">
-      <div class="dashboard-card reveal">
-        <div class="card-header">
-          <h3><i class="fa-solid fa-chart-pie"></i> Skill Mastery</h3>
-          <i class="fa-solid fa-shield-haltered"></i>
-        </div>
-        <div class="chart-container">
-          <canvas id="skillsChart"></canvas>
-        </div>
-        <div style="margin-top: 20px; text-align: center; font-size: 13px; color: var(--muted);">
-          Tingkat penguasaan skill cyber security & pendukung
-        </div>
-      </div>
-
-      <div class="dashboard-card reveal">
-        <div class="card-header">
-          <h3><i class="fa-solid fa-medal"></i> Prestasi & Pencapaian</h3>
-          <i class="fa-solid fa-clock-rotate-left"></i>
-        </div>
-        <div class="projects-table">
-          <table>
-            <thead>
-              <tr><th>Prestasi / Kegiatan</th><th>Tahun</th><th>Status</th></tr>
-            </thead>
-            <tbody>
-              <tr><td>Juara 2 LKS Cyber Security</td><td>2026</td><td><span class="project-status status-award">🥈 Juara 2</span></td></tr>
-              <tr><td>Olimpiade Jaringan Mikrotik</td><td>2025</td><td><span class="project-status status-development">✓ Selesai</span></td></tr>
-              <tr><td>Gebyar & Expo Pendidikan FTTH</td><td>2026</td><td><span class="project-status status-completed">✓ Selesai</span></td></tr>
-              <tr><td>Studi Lanjutan Cyber Security</td><td>2027</td><td><span class="project-status status-planning">📋 Planning</span></td></tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </div>
-
-    <!-- Baris kedua -->
-    <div class="dashboard-grid">
-      <div class="dashboard-card reveal">
-        <div class="card-header">
-          <h3><i class="fa-solid fa-bolt"></i> Aktivitas Belajar</h3>
-          <i class="fa-solid fa-activity"></i>
-        </div>
-        <div class="activity-list">
-          <div class="activity-item"><div class="activity-icon"><i class="fa-brands fa-python"></i></div><div class="activity-content"><div class="activity-title">Python untuk Cyber Security</div><div class="activity-time">Scripting & Automation</div></div></div>
-          <div class="activity-item"><div class="activity-icon"><i class="fa-brands fa-linux"></i></div><div class="activity-content"><div class="activity-title">Server Debian & Hardening</div><div class="activity-time">Konfigurasi & Keamanan Server</div></div></div>
-          <div class="activity-item"><div class="activity-icon"><i class="fa-solid fa-network-wired"></i></div><div class="activity-content"><div class="activity-title">Networking & Mikrotik</div><div class="activity-time">Persiapan Olimpiade Jaringan</div></div></div>
-          <div class="activity-item"><div class="activity-icon"><i class="fa-solid fa-shield-haltered"></i></div><div class="activity-content"><div class="activity-title">Ethical Hacking</div><div class="activity-time">Basic Penetration Testing</div></div></div>
-        </div>
-      </div>
-
-      <div class="dashboard-card reveal">
-        <div class="card-header">
-          <h3><i class="fa-solid fa-bullseye"></i> Target & Capaian</h3>
-          <i class="fa-solid fa-flag-checkered"></i>
-        </div>
-        <div class="activity-list">
-          <div class="activity-item"><div class="activity-icon"><i class="fa-solid fa-graduation-cap"></i></div><div class="activity-content"><div class="activity-title">Lulus SMK dengan Prestasi</div><div class="activity-time">Target: 2026</div></div></div>
-          <div class="activity-item"><div class="activity-icon"><i class="fa-solid fa-university"></i></div><div class="activity-content"><div class="activity-title">Kuliah Cyber Security</div><div class="activity-time">Rencana: 2027</div></div></div>
-          <div class="activity-item"><div class="activity-icon"><i class="fa-solid fa-certificate"></i></div><div class="activity-content"><div class="activity-title">Sertifikasi MTCNA & Security+</div><div class="activity-time">Target Tahun Depan</div></div></div>
-          <div class="activity-item"><div class="activity-icon"><i class="fa-solid fa-flag-checkered"></i></div><div class="activity-content"><div class="activity-title">Ikut CTF Competition</div><div class="activity-time">Target: 2026</div></div></div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ============================================================
-     CONTACT SECTION
-============================================================ -->
-<section id="contact" class="section">
-  <div class="container">
-    <div class="reveal" style="margin-bottom: 56px;">
-      <p class="section-label">Get In Touch</p>
-      <h2 class="section-title">Let's Connect</h2>
-      <p class="section-desc">Ada pertanyaan, kolaborasi proyek, atau sekadar ingin berkenalan? Hubungi saya.</p>
-    </div>
-
-    <div class="contact-wrap reveal">
-      <div class="contact-info">
-        <h3>Hubungi Saya Langsung</h3>
-        <p>Saya terbuka untuk diskusi seputar cyber security, networking, maupun peluang kolaborasi. Respons biasanya dalam 24 jam.</p>
-        <div class="contact-links">
-          <a href="mailto:ezhichan12@gmail.com" class="contact-link"><i class="fa-solid fa-envelope"></i> ezhichan12@gmail.com</a>
-          <a href="https://instagram.com/bbyszz.yann" target="_blank" class="contact-link"><i class="fa-brands fa-instagram"></i> @bbyszz.yann</a>
-          <a href="https://github.com/Tianpanjaitan" target="_blank" class="contact-link"><i class="fa-brands fa-github"></i> github.com/Tianpanjaitan</a>
-          <a href="tel:+6289780475320" class="contact-link"><i class="fa-solid fa-phone"></i> +62 897-8047-5320</a>
-        </div>
-      </div>
-
-      <div class="contact-form-box">
-        <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
-          
-          <!-- Access Key Web3Forms -->
-          <input type="hidden" name="access_key" value="5abd7fdc-6656-41a0-ad06-44d44844a1e2">
-          
-          <!-- Redirect setelah sukses - ganti dengan domain Anda nanti -->
-          <input type="hidden" name="redirect" value="https://christian-panjaitan.vercel.app">
-          
-          <!-- Subject email -->
-          <input type="hidden" name="subject" value="📬 Pesan Baru dari Website Portfolio Christian!">
-          
-          <!-- Anti-spam -->
-          <input type="checkbox" name="botcheck" style="display: none;">
-          
-          <div class="form-group">
-            <label><i class="fa-solid fa-user"></i> Nama Lengkap</label>
-            <input type="text" name="name" placeholder="Masukkan nama Anda" required />
-          </div>
-          
-          <div class="form-group">
-            <label><i class="fa-solid fa-envelope"></i> Email</label>
-            <input type="email" name="email" placeholder="email@contoh.com" required />
-          </div>
-          
-          <div class="form-group">
-            <label><i class="fa-solid fa-tag"></i> Subjek</label>
-            <input type="text" name="subject" placeholder="Tentang apa?" required />
-          </div>
-          
-          <div class="form-group">
-            <label><i class="fa-solid fa-comment"></i> Pesan</label>
-            <textarea name="message" placeholder="Tulis pesan Anda di sini..." required></textarea>
-          </div>
-          
-          <button type="submit" class="btn-submit"><i class="fa-solid fa-paper-plane"></i> Kirim Pesan</button>
-        </form>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ============================================================
-     FOOTER
-============================================================ -->
-<footer>
-  <div class="container">
-    <div class="footer-inner">
-      <div>
-        <div class="footer-logo">Christian<span>.</span></div>
-        <p style="font-size: 13px; color: var(--muted); margin-top: 6px;">Turning Ideas Into Digital Security</p>
-      </div>
-      <div class="footer-social">
-        <a href="https://github.com/Tianpanjaitan" target="_blank" class="social-link"><i class="fa-brands fa-github"></i></a>
-        <a href="https://instagram.com/bbyszz.yann" target="_blank" class="social-link"><i class="fa-brands fa-instagram"></i></a>
-        <a href="mailto:ezhichan12@gmail.com" class="social-link"><i class="fa-solid fa-envelope"></i></a>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <p class="footer-copy">© 2026 Christian Panjaitan. All rights reserved.</p>
-      <div class="footer-handles">
-        <a href="https://instagram.com/bbyszz.yann">@bbyszz.yann</a>
-        <a href="tel:+6289780475320">+62 897-8047-5320</a>
-      </div>
-    </div>
-  </div>
-</footer>
-
-<!-- Scroll Top Button -->
-<div class="scroll-top" id="scrollTop"><i class="fa-solid fa-arrow-up"></i></div>
-
-<!-- JavaScript -->
-<script src="script.js"></script>
-
-<!-- Chart initialization -->
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    const ctx = document.getElementById('skillsChart');
-    if (ctx) {
-      new Chart(ctx, {
-        type: 'doughnut',
-        data: {
-          labels: ['Cyber Security', 'Python', 'Linux/Debian', 'Networking', 'Mikrotik', 'Problem Solving'],
-          datasets: [{
-            data: [85, 72, 78, 80, 68, 88],
-            backgroundColor: ['#6366f1', '#38BDF8', '#F59E0B', '#10B981', '#EF4444', '#8B5CF6'],
-            borderWidth: 0,
-            borderRadius: 8,
-            spacing: 4
-          }]
-        },
-        options: {
-          responsive: true,
-          maintainAspectRatio: true,
-          plugins: {
-            legend: { position: 'bottom', labels: { color: '#cbd5e1', font: { size: 11 }, usePointStyle: true, pointStyle: 'circle' } },
-            tooltip: { backgroundColor: '#1e1e1e', titleColor: '#fff', bodyColor: '#cbd5e1', borderColor: '#6366f1', borderWidth: 1 }
-          },
-          cutout: '65%'
-        }
-      });
-    }
-  });
-</script>
-
-</body>
->>>>>>> c087169a39a99f53e5a1e127e1c5c581df478df1
 </html>
